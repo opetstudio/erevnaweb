@@ -2,9 +2,9 @@
 
 //step 1.buat koneksi ke database
 	$dbhost = "localhost";
-	$dbuser = "root";
-	$dbpass = "";
-	$dbname = "erevnawebsite";
+	$dbuser = "opeb1723_erevna";
+	$dbpass = "Erevna123!";
+	$dbname = "opeb1723_erevna_db";
 
 	$dbconnect = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
