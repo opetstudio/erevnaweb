@@ -37,7 +37,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a href="#">
-               <img src="assets/img/Logo-erevna1.png">
+               <img height="50" src="assets/img/Logo-erevna1.png">
           	  </a> 
               </div>
               <div class="collapse navbar-collapse" id="myNavbar">
@@ -139,28 +139,24 @@
             <div class="service-item">
               <h3><span>I T</span> Professional Services</h3>
               <p>We help you transform your business to enhance performance, effectiveness, efficiency and resilience. Together, we create a true competitive advantage based on the latest technologies to build the solution tailored specifically to your needs.</p>
-              <a href="">learn more...</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="service-item">
-              <h3><span>I T</span>Costum Development</h3>
+              <h3><span>I T</span>Custom Development</h3>
               <p>We understand that your company needs a cutting edge, efficient and easy to use solution that has a hight adoption rate, so our consultants can help you achieve your business goals with a custom developed solution.</p>
-              <a href="">learn more...</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="service-item">
               <h3><span>A</span>pplication Development</h3>
               <p>Play with Technology. Our mobile solutions are centered around the user. </p>
-              <a href="">learn more...</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="service-item">
               <h3><span>P</span>ayment Gateway</h3>
               <p>Erevna Raya Teknologi offers various payment solution to facilitate your business needs. Whatever you need for financial technology, we will help you to actualize it.</p>
-              <a href="">Learn more...</a>
             </div>
           </div>
         </div>
@@ -211,7 +207,7 @@
     <!---->
     <!---->
     <!---->
-    <section id="blog" class="section-padding wow fadeInUp delay-05s">
+    <!--<section id="blog" class="section-padding wow fadeInUp delay-05s">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-left">
@@ -281,7 +277,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!---->
     <section id="contact" class="section-padding wow fadeInUp delay-05s">
       <div class="container">
@@ -295,7 +291,7 @@
             <div class="loction-info white">
               <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Atrium Setiabudi Level 6, Kav.62 Jalan HR. Rasuna Said <br>Daerah Khusus Ibukota Jakarta 12920</p>
 
-              <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>erevna@gmail.com</p>
+              <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@erevnaraya.co.id</p>
               <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+62 853-4380-5673</p>
             </div>
           </div>
