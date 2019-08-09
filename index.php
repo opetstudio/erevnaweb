@@ -178,7 +178,7 @@
             <figure>
               <img src="assets/img/rayapay.png" class="img-responsive">
               <figcaption>
-                <h2>Rayapay - Direct Debit</h2>
+                <h2>Rayapay</h2>
                 <p>A convenience for customers in the e-commerce payment process where many partners are incorporated in Rayapay, and are able to distribute the settlement process to the Bank or related E-Wallet according to the merchant's request.</p>
               </figcaption>
             </figure>
