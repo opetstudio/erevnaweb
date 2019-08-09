@@ -36,9 +36,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a href="#">
-               <img height="50" src="assets/img/Logo-erevna1.png">
-          	  </a> 
+              <a class="navbar-brand" href="#">
+               <img height="40" src="assets/img/Logo-erevna1.png">
+          	  </a>
+            
               </div>
               <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -46,7 +47,6 @@
                   <li class=""><a href="#feature">About</a></li>
                   <li class=""><a href="#service">Services</a></li>
                   <li class=""><a href="#portfolio">Portfolio</a></li>
-                  <li class=""><a href="#blog">Blog</a></li>
                   <li class=""><a href="#contact">Contact Us</a></li>
                 </ul>
               </div>
