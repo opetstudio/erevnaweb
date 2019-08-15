@@ -184,15 +184,15 @@
             </figure>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
-            <a href="https://www.rayaku.id/">
-              <figure>
+            <figure>
+              <a href="https://www.rayaku.id/">
                 <img src="assets/img/rayaku.png" class="img-responsive">
                 <figcaption>
                   <h2>Rayaku — A Brand New Messaging Application</h2>
                   <p>Rayaku is a communication app that allows you to connect with contacts around the world. You can easily message family, friends, and colleagues using Rayaku. Rayaku is available for Android and other devices.</p>
                 </figcaption>
-              </figure>
-            </a>
+                </a>
+            </figure>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
             <figure>
