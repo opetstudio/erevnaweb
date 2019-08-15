@@ -37,7 +37,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="#">
-               <img height="40" src="assets/img/Logo-erevna1.png">
+               <img height="40" src="assets/img/Company Logo Shioullete White.png">
           	  </a>
             
               </div>
