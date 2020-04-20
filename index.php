@@ -13,11 +13,11 @@
   <meta name="keywords" content="Erevna Raya Teknologi ">
 
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600">
-  <link rel="stylesheet" type="text/css" href="assets/css/jquery.bxslider.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/jquery.bxslider.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
 
 <body>
@@ -37,7 +37,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="#">
-               <img height="45" src="assets/img/Erevna Logo Original.png">
+               <img height="45" src="/assets/img/Erevna Logo Original.png">
           	  </a>
             
               </div>
@@ -97,7 +97,7 @@
 						<div class="visimisi-content">
             <div class="col-md-12 text-center">
             <div class="item-img">
-                <img src="assets/img/setiabudi-1.jpg" class="img-responsive">
+                <img src="/assets/img/setiabudi-1.jpg" class="img-responsive">
               </div>
             </div>
           </div>
@@ -176,7 +176,7 @@
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
             <figure>
-              <img src="assets/img/Rayapay.jpeg" class="img-responsive">
+              <img src="/assets/img/Rayapay.jpeg" class="img-responsive">
               <figcaption>
                 <h2>Rayapay</h2>
                 <p>Rayapay is a payment application that makes it easy for users to make digital transactions whether it is bill payments, payments to merchants by barcode scanning so users can quickly make transactions through Rayapay's digital wallet.</p>
@@ -185,7 +185,7 @@
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
             <figure>
-              <img src="assets/img/rayaku.png" class="img-responsive">
+              <img src="/assets/img/rayaku.png" class="img-responsive">
               <a href="https://www.rayaku.id/">
                 <figcaption>
                  <h2>Rayaku — A Brand New Messaging Application</h2>
@@ -196,7 +196,7 @@
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
             <figure>
-              <img src="assets/img/rayasem.png" class="img-responsive">
+              <img src="/assets/img/rayasem.png" class="img-responsive">
               <figcaption>
                 <h2>Rayasem</h2>
                 <p>A visionary search engine for classified ads. Find listings that you need among thousands from numerous classified portals, here in Rayasem.</p>
@@ -221,7 +221,7 @@
             <div class="blog-sec">
               <div class="blog-img">
                 <a href="">
-                  <img src="assets/img/blog01.jpg" class="img-responsive">
+                  <img src="/assets/img/blog01.jpg" class="img-responsive">
                 </a>
               </div>
               <div class="blog-info">
@@ -241,7 +241,7 @@
             <div class="blog-sec">
               <div class="blog-img">
                 <a href="">
-                  <img src="assets/img/blog02.jpg" class="img-responsive">
+                  <img src="/assets/img/blog02.jpg" class="img-responsive">
                 </a>
               </div>
               <div class="blog-info">
@@ -261,7 +261,7 @@
             <div class="blog-sec">
               <div class="blog-img">
                 <a href="">
-                  <img src="assets/img/blog03.jpg" class="img-responsive">
+                  <img src="/assets/img/blog03.jpg" class="img-responsive">
                 </a>
               </div>
               <div class="blog-info">
@@ -353,13 +353,13 @@
     </footer>
     <!---->
   </div>
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.easing.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/wow.js"></script>
-  <script src="assets/js/jquery.bxslider.min.js"></script>
-  <script src="assets/js/custom.js"></script>
-  <script src="assets/contactform/contactform.js"></script>
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/jquery.easing.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/wow.js"></script>
+  <script src="/assets/js/jquery.bxslider.min.js"></script>
+  <script src="/assets/js/custom.js"></script>
+  <script src="/assets/contactform/contactform.js"></script>
 
 </body>
 </html>
