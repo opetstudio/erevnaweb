@@ -1,7 +1,3 @@
-<?php
-  require_once("dbconfig.php");
-  ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,11 +39,7 @@
               </div>
               <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                  <li class="active"><a href="#main-header">Home</a></li>
-                  <li class=""><a href="#feature">About</a></li>
-                  <li class=""><a href="#service">Services</a></li>
-                  <li class=""><a href="#portfolio">Portfolio</a></li>
-                  <li class=""><a href="#contact">Contact Us</a></li>
+                  <li class=""><a href="#feature">Privacy-Policy</a></li>
                 </ul>
               </div>
             </div>
@@ -59,11 +51,11 @@
               <div class="banner-info text-left wow fadeIn delay-05s">
               <div class="col-md-12 text-left">
                 <h1 class="bnr-title"><br></h1>
-                <h2 class="bnr-sub-title">PT. Erevna Raya Teknologi</h2>
-                <p class="bnr-para">We centralized ads from thousands of websites that classified to many vertical in just one search.<br>We help our clients and partners by generating more traffic to their websites.</p>
+                <h2 class="bnr-sub-title">Rayapay</h2>
+                <p class="bnr-para">Rayapay merupakan aplikasi pembayaran yang memberikan kemudahan bagi pengguna dalam transaksi apapun secara digital baik itu pembayaran tagihan, pembayaran terhadap merchant dengan barcode scan sehingga pengguna dapat dengan cepat melakukan transaksi lewat dompet digital Rayapay.</p>
               </div>
-                <div class="brn-btn">
-                  <a href="#" class="btn btn-more">More About Us</a>
+                <div class="brn-btn text-center" >
+                  <a href="#" class="btn btn-more">Privacy-Policy</a>
                 </div>
                 <div class="text-center overlay-detail">
                   <a href="#feature"><i class="fa fa-angle-down"></i></a>
@@ -72,6 +64,7 @@
             </div>
           </div>
         </div>
+        
       </div>
     </div>
     <!--/ HEADER-->
@@ -80,44 +73,66 @@
         <section id="feature" class="section-padding wow fadeIn delay-05s">
         <div class="row ">
         <div class="col-md-12 text-left">
-            <h2 class="service-title pad-bt15">ABOUT US</h2>
-            <div class="col-md-12 text-center">
-            <?php
-              $sql = 'SELECT *FROM content_web WHERE no=1 ';
-		          $query = mysqli_query($dbconnect, $sql);
-              $row = mysqli_fetch_array($query);
-              echo $row['content_value'] . '</br/>';
-              ?>            
-              <hr class="bottom-line"> 
           <br>  
           </div>
           </div>
           <div class="row visimisi-data">
-					<div class="wow fadeInUp col-sm-6">
+					<div class="row fadeInUp col-sm-3">
 						<div class="visimisi-content">
-            <div class="col-md-12 text-center">
+            <div class="col-md-8 text-center">
             <div class="item-img">
-                <img src="/assets/img/setiabudi-1.jpg" class="img-responsive">
+                <br><img height="150" src="/assets/img/Rayapay-icon.png" >
               </div>
             </div>
           </div>
           </div>
-					<div class="wow fadeInUp col-sm-6">
+					<div class="wow fadeInUp col-sm-9">
 						<div class="visimisi-content">
             <div class="col-md-12 text-center">
               <div class="col-md-12 text-left">
-
-              <!-- 
-                <p class="sub-title pad-bt15"><span>PT. EREVNA RAYA TEKNOLOGI</span> we build smart payment method through comprehensive research, careful consideration together with the growth of digital era to make payment process even more efficient. With a development specialist team & experienced leader in banking, we consistently strive to be at the forefront of payment gateway technology.</p><br>
-                <p class="sub-title pad-bt15"><span>Our company started with only 10 (ten) personel, currently, after years of experience, we are supported by more then 500 consultants and developers.</p>
-              -->        
-              <?php
-              $sql = 'SELECT *FROM content_web WHERE no=2';
-		          $query = mysqli_query($dbconnect, $sql);
-              $row = mysqli_fetch_array($query);
-              echo $row['content_value'] . '</br/>';
-              ?>
-
+                <h2 class="service-title pad-bt15">Kebijakan Privasi</h2>
+                <p class="sub-title pad-bt15 text-justify">Kebijakan Privasi berikut ini menjelaskan bagaimana kami PT EREVNA RAYA TEKNOLOGI mengumpulkan, menggunakan, mengungkapkan dan melindungi data pribadi Pengguna termasuk informasi atas identitas pribadi dan informasi lain yang telah Anda kirimkan kepada kami saat pengguna mengakses dan menggunakan Layanan dari aplikasi Rayapay.<br><br>
+                <b>1. DATA PRIBADI YANG DIKUMPULKAN.</b><br>
+                Kami mengumpulkan dan menyimpan data pribadi ketika pengguna menggunakan laman kami dan data pribadi yang kami kumpulkan adalah :<br>
+                <ul style="margin-bottom: 15px">
+                  <p class="sub-title pad-bt15 text-justify">
+                    - Saat Pengguna menggunakan layanan kami dan membuat akun aplikasi Rayapay maka Pengguna akan memberikan data pribadi berupa nama, alamat, nomor telepon, tanggal lahir, email yang selanjutnya akan dijadikan sebagai ID Pengguna.<br><br>
+                    - Saat Pengguna mendaftarkan akun kami juga mengumpulkan informasi dari kemputer anda termasuk informasi demografis, alamat IP, versi browser/platform, sistem operasi, sumber rujukan, periode kunjungan, tampilan halaman, (informasi perangkat) digunakan untuk meningkatkan kinerja serta kemanan platform.<br><br>
+                    - Informasi yang didapatkan saat Pengguna mengakses layanan dari aplikasi Rayapay juga termasuk informasi rekening Pengguna berupa nama pemegan rekening, nomor kartu kredit/debit serta masa berlaku, data transaksi dan tagihan.<br><br>
+                    - Informasi Pihak Ketiga. Selain kami mngumpulkan informasi secara otomatis, kami juga mengumpulkan data dan informasi Pengguna melalui sumber data Pihak Ketiga yang digunakan dalam proses penyediaan Layanan aplikasi Rayapay.<br><br>
+                </ul>
+                  <p class="sub-title pad-bt15 text-justify">
+                  <b>2. PENGGUNAAN DATA PRIBADI.</b><br>
+                    Kami dapat menggunakan keseluruhan data pribadi pengguna sebagai acuan untuk penyediaan Layanan aplikasi Rayapay antara lain sebagai berikut :<br>
+                <ul style="margin-bottom: 15px">
+                  <p class="sub-title pad-bt15 text-justify">
+                    - Untuk memungkinkan kelayakan verifikasi  Pengguna untuk keperluan dalam pemberian layanan serta fitur-fitur dalam layanan aplikasi Rayapay Kami.<br><br>
+                    - Kami menggunakan informasi Pengguna untuk keperluan pendaftaran serta mengelola dan mengawasi akun untuk memenuhi kebutuhan Pengguna.<br><br>
+                    - Untuk mengolah dan menyediakan layanan yang Anda minta termasuk transaksi pembayaran serta pemberitahuan transaksi-transaksi yang dilakukan.<br><br>
+                    - Untuk berkomunkasi dengan Anda, menanggapi pertanyaan, saran dan tuntutan sehubungan dengan pengunaan Layanan aplikasi Rayapay.<br><br>
+                    - Untuk memberitahukan penawaran-penawaran atau promosi khusus dari kami, iklan, voucher, juga fungsi-fungsi terbaru dari aplikasi Rayapay.<br><br>
+                    - Melakukan pengecekan ,mencegah atau menangani penipuan atau pelangaran-pelanggaran atas syarat dan ketentuan lain-nya yang illegal serta dapat menimbulkan kerugian bagi Kami maupun Pengguna<br><br>
+                    - Melakukan pengungkapan berdasarkan peraturan perundang-undangan untuk menghadapi setiap gugatan dan melakukan pemeriksaan audit juga penyelidikan. Pengungkapan data dapat dilakukan dengan peraturan atau proses hukum yang berlaku di negara masing-masing.<br><br>
+                </ul>
+                  <p class="sub-title pad-bt15 text-justify">
+                  <b>3. DATA PRIBADI YANG DIBAGIKAN.</b><br>
+                    Kami memerlukan Data Pribadi Anda untuk diberikan kepada pihak-pihak dibawah ini, sewaktu-waktu untuk tujuan lain yang diizinkan sesuai dengan aturan dan ketentuan yang berlaku serta pemberitahuan khusus pada saat pengumpulan data yang sudah disetujui oleh Pengguna.<br>
+                <ul style="margin-bottom: 15px">
+                  <p class="sub-title pad-bt15 text-justify">
+                    - Kelompok usaha dan pihak yang terkait dengan kami, mitra usaha baik perusahaan, organisasi, dan pihak lainnya yang bekerja sama dalam menjalankan bisinis.<br><br>
+                    - Sistem pembayaran yang di gunakan dalam Layanan aplikasi Rayapay.<br><br>
+                    - Penyedia jasa, kosultan, Lembaga riset, rekan pemasaran.<br><br>
+                    - Pihak ketiga yang bekerja sama dalam menyediakan layanan termasuk agen, kontraktor, vendor atau pihak lainya yang melakukan tugas atas nama Kami melalui cara-cara yang diizinkan dalam peraturan dan hukum dalam negara.<br><br>
+                    - Lembaga penegak hukum dan konsultan hukum, pejabat penegak hukum, otoritas pemerintah untuk memenuhi tujuan hukum apabila terjadi suatu hal dalam keadaan darurat yang dapat menimbulkan kerugian.<br><br>
+                    - Instansi pemerintah, Bank Indonesia, Otoritas Jasa Keuangan dan pusat laporan yang di atur dalam Hukum dan diwajibkan memberikan informasi secara berkala sesuai peraturan perundang-undangan yang berlaku.<br><br>
+                    - Berbagi informasi dengan afiliasi dengan maksud membantu dalam menyediakan layanan Kami untuk mengoperasikan bisnis yang menurut kebijakan Kami untuk memenuhi kebutuhan pengguna sesuai dengan ketentuan dan Peraturan yang berklaku.<br><br>
+                </ul>
+                  <p class="sub-title pad-bt15 text-justify">
+                    Kami melakukan seleksi yang hati-hati atas pembagian informasi yang Kami bagikan. Seluruh pihak penyedia layanan atau semua pihak yang bekerja sama dengan kami terikat oleh perjanjian untuk menjaga keamanan Pengguna dan menggunakannya hanya sesuai dengan izin dan peraturan yang sesuai dengan hukum yang berlaku di Indonesia.
+                  </p>
+                  <p class="sub-title pad-bt15 text-justify">
+                  <b>PERUBAHAN KEBIJAKAN PRIVASI</b><br>
+                    Perusahaan kami akan merubah Kebijakan Privasi ini untuk kebutuhan yang memang diperlukan dengan tujuan untuk melayani Pengguna agar lebih efektif serta pembertiahuan kepada Pengguna terhadap Kebijakan yang dirubah.
             </div>
             </div>
           </div>
@@ -128,84 +143,13 @@
     </section>
     <!---->
     <!---->
-    <section id="service" class="section-padding wow fadeInUp delay-05s">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-left">
-            <h2 class="service-title pad-bt15">SERVICE & PRODUCT</h2>
-            <hr class="bottom-line">
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <h3><span>I T</span> Professional Services</h3>
-              <p>We help you transform your business to enhance performance, effectiveness, efficiency and resilience. Together, we create a true competitive advantage based on the latest technologies to build the solution tailored specifically to your needs.</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <h3><span>I T</span>Custom Development</h3>
-              <p>We understand that your company needs a cutting edge, efficient and easy to use solution that has a hight adoption rate, so our consultants can help you achieve your business goals with a custom developed solution.</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <h3><span>A</span>pplication Development</h3>
-              <p>Play with Technology. Our mobile solutions are centered around the user. </p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <h3><span>P</span>ayment Gateway</h3>
-              <p>Erevna Raya Teknologi offers various payment solution to facilitate your business needs. Whatever you need for financial technology, we will help you to actualize it.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+   
     <!---->
     <!---->
     <!---->
     <!---->
-    <section id="portfolio" class="section-padding wow fadeInUp delay-05s">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-left">
-            <h2 class="service-title pad-bt15">Our Recent Works</h2>
-            <p class="sub-title pad-bt15"> </p>
-            <hr class="bottom-line">
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
-            <figure>
-              <img src="/assets/img/Rayapay.jpeg" class="img-responsive">
-              <figcaption>
-                <h2>Rayapay</h2>
-                <p>Rayapay is a payment application that makes it easy for users to make digital transactions whether it is bill payments, payments to merchants by barcode scanning so users can quickly make transactions through Rayapay's digital wallet.</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
-            <figure>
-              <img src="/assets/img/rayaku.png" class="img-responsive">
-              <a href="https://www.rayaku.id/">
-                <figcaption>
-                 <h2>Rayaku — A Brand New Messaging Application</h2>
-                 <p>Rayaku is a communication app that allows you to connect with contacts around the world. You can easily message family, friends, and colleagues using Rayaku. Rayaku is available for Android and other devices.</p>   
-               </figcaption>
-              </a>
-            </figure>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
-            <figure>
-              <img src="/assets/img/rayasem.png" class="img-responsive">
-              <figcaption>
-                <h2>Rayasem</h2>
-                <p>A visionary search engine for classified ads. Find listings that you need among thousands from numerous classified portals, here in Rayasem.</p>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
+
+     
     <!---->
     <!---->
     <!---->

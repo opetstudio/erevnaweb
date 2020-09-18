@@ -1,9 +1,4 @@
-/*
-    Theme Name: Baker
-    Theme URL: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
+
 
 body {
   line-height: 1.4;
@@ -169,8 +164,8 @@ HEADER
   padding: 0px;
   font-size: 24px;
   text-transform: uppercase;
-  padding: 15px 0px;
-  margin-top: 6px;
+  padding: 5px 0px;
+  margin-top: 5px;
 }
 
 .navbar-default .navbar-nav>li>a {
