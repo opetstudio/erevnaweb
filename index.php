@@ -59,7 +59,7 @@
               <div class="banner-info text-left wow fadeIn delay-05s">
               <div class="col-md-12 text-left">
                 <h1 class="bnr-title"><br></h1>
-                <h2 class="bnr-sub-title">PT. Erevna Raya Teknologi</h2>
+                <h2 class="bnr-sub-title">Erevna Raya Teknologi</h2>
                 <p class="bnr-para">We centralized ads from thousands of websites that classified to many vertical in just one search.<br>We help our clients and partners by generating more traffic to their websites.</p>
               </div>
                 <div class="brn-btn">
