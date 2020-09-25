@@ -141,7 +141,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Nofrets%20Poai.jpg">
@@ -201,7 +201,7 @@
                 <div class="col-sm-4">
                     <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Devid%20Yosua%20Runtuwene.jpg">
                         <h4>Devid Runtuwene</h4>
-                        <p class="text-muted">Designer</p>
+                        <p class="text-muted">Fullstack, Designer</p>
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -211,7 +211,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section id="contact" style="background-image:url('assets/img/map-image.png');">
         <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <div class="row">
