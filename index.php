@@ -1,365 +1,447 @@
-<?php
-  require_once("dbconfig.php");
-  ?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Erevna Raya Teknologi</title>
-  <meta name="description" content="Erevna Raya Teknologi">
-  <meta name="keywords" content="Erevna Raya Teknologi ">
-
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600">
-  <link rel="stylesheet" type="text/css" href="/assets/css/jquery.bxslider.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/animate.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Erevna Raya Teknologi</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
 </head>
 
-<body>
-
-  <div class="loader"></div>
-  <div id="myDiv">
-    <!--HEADER-->
-    <div class="header">
-      <div class="bg-color">
-        <header id="main-header">
-          <nav class="navbar navbar-default navbar-fixed-top">
+<body id="page-top">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav" style="height: 49px;">
+        <div class="container"><a class="navbar-brand" data-bs-hover-animate="pulse" href="#page-top" style="background-image: url(&quot;assets/img/Erevna%20Logo%20Original.png&quot;);background-size: contain;background-position: center;background-repeat: no-repeat;color: rgba(254,197,3,0);padding: 0px;">Erevna Raya</a>
+            <button
+                data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="nav navbar-nav ml-auto text-uppercase">
+                        <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" data-bs-hover-animate="pulse" href="#services" style="font-family: 'Roboto Slab', serif;">Services</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" data-bs-hover-animate="pulse" href="#portfolio" style="font-family: 'Roboto Slab', serif;">Portfolio</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" data-bs-hover-animate="pulse" href="#about" style="font-family: 'Roboto Slab', serif;">About</a></li>
+                        <li class="nav-item" role="presentation"></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" data-bs-hover-animate="pulse" href="#contact" style="font-family: 'Roboto Slab', serif;">Contact</a></li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image: url(&quot;assets/img/bg-banner01.jpg&quot;);height: 776px;">
+        <div style="background-color: rgba(25,9,72,0.7);height: 776px;">
             <div class="container">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">
-               <img height="45" src="/assets/img/Erevna Logo Original.png">
-          	  </a>
-            
-              </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                  <li class="active"><a href="#main-header">Home</a></li>
-                  <li class=""><a href="#feature">About</a></li>
-                  <li class=""><a href="#service">Services</a></li>
-                  <li class=""><a href="#portfolio">Portfolio</a></li>
-                  <li class=""><a href="#contact">Contact Us</a></li>
-                </ul>
-              </div>
+                <div class="intro-text">
+                    <p data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200" style="font-size: 51px;">Erevna Raya Teknologi</p>
+                    <p data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200" style="font-size: 16px;">We centralized ads from thousands of websites that classified to many vertical in just one search.<br>We help our clients and partners by generating more traffic to their websites.<br></p>
+                    <div class="intro-heading text-uppercase"></div><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" role="button" data-bs-hover-animate="pulse" href="#services" style="background-color: rgb(27,8,101);padding: 7px;font-size: 12px;">More about us</a></div>
             </div>
-          </nav>
-        </header>
-        <div class="wrapper">
-          <div class="container">
+        </div>
+    </header>
+    <section id="services">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <div class="row">
-              <div class="banner-info text-left wow fadeIn delay-05s">
-              <div class="col-md-12 text-left">
-                <h1 class="bnr-title"><br></h1>
-                <h2 class="bnr-sub-title">Erevna Raya Teknologi</h2>
-                <p class="bnr-para">We centralized ads from thousands of websites that classified to many vertical in just one search.<br>We help our clients and partners by generating more traffic to their websites.</p>
-              </div>
-                <div class="brn-btn">
-                  <a href="#" class="btn btn-more">More About Us</a>
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase section-heading" style="color: rgb(33,37,41);font-size: 30px;">Services</h2>
+                    <h3 class="text-muted section-subheading"></h3>
                 </div>
-                <div class="text-center overlay-detail">
-                  <a href="#feature"><i class="fa fa-angle-down"></i></a>
-                </div>
-              </div>
             </div>
-          </div>
+            <div class="row text-center">
+                <div class="col-md-4" data-bs-hover-animate="pulse"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-cogs fa-stack-1x fa-inverse"></i></span>
+                    <h4 class="section-heading" style="font-size: 21px;padding-bottom: 10px;padding-top: 10px;">IT Profesional Service</h4>
+                    <p class="text-muted">We provide solutions to your business needs to improve performance, effectiveness, efficiency and durability. Together, we create a true competitive advantage based on the latest technology to build a tailored solution specifically
+                        for your needs.</p>
+                </div>
+                <div class="col-md-4" data-bs-hover-animate="pulse"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-laptop fa-stack-1x fa-inverse"></i></span>
+                    <h4 class="section-heading" style="font-size: 21px;padding-bottom: 10px;padding-top: 10px;">Application Development</h4>
+                    <p class="text-muted">We provide information system with newest technology, with Mobile – Web Platform.&nbsp;It is suitable tools to integrate applications into your business needs.</p>
+                </div>
+                <div class="col-md-4" data-bs-hover-animate="pulse"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-laptop fa-stack-1x fa-inverse"></i></span>
+                    <h4 class="section-heading" style="font-size: 21px;padding-bottom: 10px;padding-top: 10px;"><strong>IT Custom Development</strong></h4>
+                    <p class="text-muted">We understand that your company needs a cutting edge, efficient and easy to use solution that has a hight adoption rate, so our consultants can help you achieve your business goals with a custom developed solution.<br></p>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+    <section id="portfolio" class="bg-light">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase section-heading" style="font-size: 30px;">Portfolio</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 portfolio-item" data-bs-hover-animate="pulse"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"><img class="img-fluid" src="assets/img/1-thumbnail%20copy.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Rayapay</h4>
+                        <p class="text-muted">Fintech</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item" data-bs-hover-animate="pulse"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"><img class="img-fluid" src="assets/img/1-thumbnail.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Rayaku</h4>
+                        <p class="text-muted">Social Media</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item" data-bs-hover-animate="pulse"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal3"><img class="img-fluid" src="assets/img/3-thumbnail.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Prisma Edu</h4>
+                        <p class="text-muted">School Information System</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item" data-bs-hover-animate="pulse"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal4"><img class="img-fluid" src="assets/img/4-thumbnail.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Rayasem</h4>
+                        <p class="text-muted">Search Engine</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item" data-bs-hover-animate="pulse"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal5"><img class="img-fluid img-fluid" src="assets/img/6-thumbnail.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Bheem</h4>
+                        <p class="text-muted">Video Confrence</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item" data-bs-hover-animate="pulse"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal6"><img class="img-fluid" src="assets/img/5-thumbnail.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Raya Pos</h4>
+                        <p class="text-muted">Media Online</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal7"></a></div>
+                <div class="col-sm-6 col-md-4 portfolio-item" data-bs-hover-animate="pulse"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal8"><img class="img-fluid" src="assets/img/7-thumbnail.jpg"></a>
+                    <div class="portfolio-caption">
+                        <h4>Bheem Elearning</h4>
+                        <p class="text-muted">E-learning</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal9"></a></div>
+            </div>
+        </div>
+    </section>
+    <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" id="about">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase" style="font-size: 30px;">About</h2>
+                    <h3 class="text-muted section-subheading" style="padding-top: 10px;">We have two lines in business – Software Development Services and Software Product Services.<br>We provide information system with newest technology, with Mobile – Web Platform.<br>Our product services cover the deployment and support
+                        leading software products targeting sectors such as fintech, Media, Education, and<br>Search Engine.<br></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-group timeline"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Nofrets%20Poai.jpg">
+                        <h4>Nofreta Poai</h4>
+                        <p class="text-muted">CEO</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Renaldo%20Pontoh.jpg">
+                        <h4>Renaldo Pontoh</h4>
+                        <p class="text-muted">Project Manager</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Julian%20Purukan%20copy.jpg">
+                        <h4>Julian Purukan</h4>
+                        <p class="text-muted">Quality Assurance</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Michael%20Tinangon.jpg">
+                        <h4>Michael Tinangon</h4>
+                        <p class="text-muted">Backend Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Andrew%20Rendiyanto.jpg">
+                        <h4>Andrew Amba</h4>
+                        <p class="text-muted">Frontend Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Devid%20Yosua%20Runtuwene.jpg">
+                        <h4>Devid Runtuwene</h4>
+                        <p class="text-muted">Designer</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" style="background-image:url('assets/img/map-image.png');">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <div class="row">
+                <div class="col-lg-12 text-center" style="background-color: rgba(48,19,108,0.27);">
+                    <h2 class="text-uppercase section-heading" style="font-size: 31px;">Contact Us</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12" style="background-color: #30136c45;">
+                        <div class="form-row">
+                            <div class="col col-md-6">
+                                <div class="form-group"><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                                <div class="form-group"><small class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-row">
+                                    <div class="col" style="max-width: 47px;"><i class="fa fa-map-marker" style="color: rgb(254,209,54);font-size: 37px;margin-left: 8px;"></i></div>
+                                    <div class="col">
+                                        <p style="color: rgb(255,255,255);margin-bottom: 36px;font-size: 14px;">Atrium Setiabudi Level 6, Kav.62 Jalan HR. Rasuna Said<br>Daerah Khusus Ibukota Jakarta 12920</p>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col" style="max-width: 47px;"><i class="fa fa-envelope-o" style="font-size: 37px;color: rgb(254,209,54);"></i></div>
+                                    <div class="col">
+                                        <p style="color: rgb(255,255,255);margin-bottom: 36px;font-size: 14px;">info@erevnaraya.co.id</p>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col" style="max-width: 47px;"><i class="fa fa-phone" style="font-size: 37px;color: rgb(254,209,54);margin-left: 4px;"></i></div>
+                                    <div class="col">
+                                        <p style="color: rgb(255,255,255);font-size: 14px;">+62 853-4380-5673</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group"><small class="form-text text-danger help-block lead"></small></div>
+                                <form action="insert.php" method="post" role="form" class="contactForm">
+                                    <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name" style="padding: 10px;font-size: 14px;"></div>
+                                    <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" style="padding: 10px;font-size: 14px;"><small class="form-text text-danger">Please enter a correct email address.</small></div>
+                                    <div class="form-group"><input class="form-control" type="text" name="subject" placeholder="Subject" style="padding: 10px;font-size: 14px;"></div>
+                                    <div
+                                        class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14" style="padding: 10px;height: 162px;font-size: 14px;"></textarea></div>
+                            
+                        </div>
+                        <div class="col">
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" data-bs-hover-animate="pulse" id="sendMessageButton" type="submit" style="padding: 8px;margin-top: 20px;font-size: 12px;">Send Message</button></div>
+                            </form>
+                </div>
+            
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="footer-basic" style="background-color: rgb(52,58,64);">
+        <footer>
+            <div class="social" style="color: rgb(253,254,255);"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline"
+                style="color: rgb(255,255,255);">
+                <li class="list-inline-item" data-bs-hover-animate="pulse"><a href="#page-top">Home</a></li>
+                <li class="list-inline-item" data-bs-hover-animate="pulse"><a href="#services">Services</a></li>
+                <li class="list-inline-item" data-bs-hover-animate="pulse"><a href="#portfolio">Portfolio</a></li>
+                <li class="list-inline-item" data-bs-hover-animate="pulse"><a href="#about">About</a></li>
+                <li class="list-inline-item" data-bs-hover-animate="pulse"><a href="#contact">Contact</a></li>
+            </ul>
+            <p class="copyright" style="color: rgb(255,255,255);">Erevna Raya © 2020</p>
+        </footer>
     </div>
-    <!--/ HEADER-->
-    <!---->
-    <div class="container ">
-        <section id="feature" class="section-padding wow fadeIn delay-05s">
-        <div class="row ">
-        <div class="col-md-12 text-left">
-            <h2 class="service-title pad-bt15">ABOUT US</h2>
-            <div class="col-md-12 text-center">
-            <?php
-              $sql = 'SELECT *FROM content_web WHERE no=1 ';
-		          $query = mysqli_query($dbconnect, $sql);
-              $row = mysqli_fetch_array($query);
-              echo $row['content_value'] . '</br/>';
-              ?>            
-              <hr class="bottom-line"> 
-          <br>  
-          </div>
-          </div>
-          <div class="row visimisi-data">
-					<div class="wow fadeInUp col-sm-6">
-						<div class="visimisi-content">
-            <div class="col-md-12 text-center">
-            <div class="item-img">
-                <img src="/assets/img/setiabudi-1.jpg" class="img-responsive">
-              </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">RAYAPAY</h2>
+                                    <p class="item-intro text-muted">Payment Application.</p><img class="img-fluid d-block mx-auto" src="assets/img/1-thumbnail%20copy.jpg">
+                                    <p>Rayapay is a payment application that makes it easy for users to make any transaction digitally, be it bill payments, payments to merchants by scanning a barcode so that users can quickly make transactions through the Termapay digital wallet.</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: June 2020</li>
+                                        <li>Category: Fintech</li>
+                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          </div>
-					<div class="wow fadeInUp col-sm-6">
-						<div class="visimisi-content">
-            <div class="col-md-12 text-center">
-              <div class="col-md-12 text-left">
-
-              <!-- 
-                <p class="sub-title pad-bt15"><span>PT. EREVNA RAYA TEKNOLOGI</span> we build smart payment method through comprehensive research, careful consideration together with the growth of digital era to make payment process even more efficient. With a development specialist team & experienced leader in banking, we consistently strive to be at the forefront of payment gateway technology.</p><br>
-                <p class="sub-title pad-bt15"><span>Our company started with only 10 (ten) personel, currently, after years of experience, we are supported by more then 500 consultants and developers.</p>
-              -->        
-              <?php
-              $sql = 'SELECT *FROM content_web WHERE no=2';
-		          $query = mysqli_query($dbconnect, $sql);
-              $row = mysqli_fetch_array($query);
-              echo $row['content_value'] . '</br/>';
-              ?>
-
-            </div>
-            </div>
-          </div>
-          </div>
-				</div>
         </div>
-      </div>
-    </section>
-    <!---->
-    <!---->
-    <section id="service" class="section-padding wow fadeInUp delay-05s">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-left">
-            <h2 class="service-title pad-bt15">SERVICE & PRODUCT</h2>
-            <hr class="bottom-line">
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <h3><span>I T</span> Professional Services</h3>
-              <p>We help you transform your business to enhance performance, effectiveness, efficiency and resilience. Together, we create a true competitive advantage based on the latest technologies to build the solution tailored specifically to your needs.</p>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal2">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">RAYAKU</h2>
+                                    <p class="item-intro text-muted">Messaging Application.</p><img class="img-fluid d-block mx-auto" src="assets/img/1-thumbnail.jpg">
+                                    <p>Rayaku is a communication app that allows you to connect with contacts around the world.
+                                        You can easily message family, friends, and colleagues using Rayaku. Rayaku is available for Android and other devices</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: April 2018</li>
+                                        <li>Category: Social Media</li>
+                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <h3><span>I T</span>Custom Development</h3>
-              <p>We understand that your company needs a cutting edge, efficient and easy to use solution that has a hight adoption rate, so our consultants can help you achieve your business goals with a custom developed solution.</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <h3><span>A</span>pplication Development</h3>
-              <p>Play with Technology. Our mobile solutions are centered around the user. </p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <h3><span>P</span>ayment Gateway</h3>
-              <p>Erevna Raya Teknologi offers various payment solution to facilitate your business needs. Whatever you need for financial technology, we will help you to actualize it.</p>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <!---->
-    <!---->
-    <!---->
-    <!---->
-    <section id="portfolio" class="section-padding wow fadeInUp delay-05s">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-left">
-            <h2 class="service-title pad-bt15">Our Recent Works</h2>
-            <p class="sub-title pad-bt15"> </p>
-            <hr class="bottom-line">
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
-            <figure>
-              <img src="/assets/img/Rayapay.jpeg" class="img-responsive">
-              <figcaption>
-                <h2>Rayapay</h2>
-                <p>Rayapay is a payment application that makes it easy for users to make digital transactions whether it is bill payments, payments to merchants by barcode scanning so users can quickly make transactions through Rayapay's digital wallet.</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
-            <figure>
-              <img src="/assets/img/rayaku.png" class="img-responsive">
-              <a href="https://www.rayaku.id/">
-                <figcaption>
-                 <h2>Rayaku — A Brand New Messaging Application</h2>
-                 <p>Rayaku is a communication app that allows you to connect with contacts around the world. You can easily message family, friends, and colleagues using Rayaku. Rayaku is available for Android and other devices.</p>   
-               </figcaption>
-              </a>
-            </figure>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
-            <figure>
-              <img src="/assets/img/rayasem.png" class="img-responsive">
-              <figcaption>
-                <h2>Rayasem</h2>
-                <p>A visionary search engine for classified ads. Find listings that you need among thousands from numerous classified portals, here in Rayasem.</p>
-              </figcaption>
-            </figure>
-          </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal3">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">PRISMA EDU</h2>
+                                    <p class="item-intro text-muted">System Academic.</p><img class="img-fluid d-block mx-auto" src="assets/img/3-thumbnail.jpg">
+                                    <p>-</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: September 2019</li>
+                                        <li>Category: System Academic</li>
+                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
-    <!---->
-    <!---->
-    <!---->
-    <!--<section id="blog" class="section-padding wow fadeInUp delay-05s">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-left">
-            <h2 class="service-title pad-bt15">Latest from our blog</h2>
-            <p class="sub-title pad-bt15"> </p>
-            <hr class="bottom-line">
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="blog-sec">
-              <div class="blog-img">
-                <a href="">
-                  <img src="/assets/img/blog01.jpg" class="img-responsive">
-                </a>
-              </div>
-              <div class="blog-info">
-                <h2>This is Lorem ipsum heading.</h2>
-                <div class="blog-comment">
-                  <p>Posted In: <span>Legal Advice</span></p>
-                  <p>
-                    <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                    <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal4">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">RAYASEM</h2>
+                                    <p class="item-intro text-muted">Search Engine.</p><img class="img-fluid d-block mx-auto" src="assets/img/4-thumbnail.jpg">
+                                    <p>Rayasem is an Indonesian based search engine that provides quality traffic to property, cars, motorcycles and jobs portals</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: Juny 2017</li>
+                                        <li>Category: Search Engine</li>
+                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-                <a href="" class="read-more">Read more →</a>
-              </div>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="blog-sec">
-              <div class="blog-img">
-                <a href="">
-                  <img src="/assets/img/blog02.jpg" class="img-responsive">
-                </a>
-              </div>
-              <div class="blog-info">
-                <h2>This is Lorem ipsum heading.</h2>
-                <div class="blog-comment">
-                  <p>Posted In: <span>Legal Advice</span></p>
-                  <p>
-                    <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                    <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-                </div>
-                <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-                <a href="" class="read-more">Read more →</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="blog-sec">
-              <div class="blog-img">
-                <a href="">
-                  <img src="/assets/img/blog03.jpg" class="img-responsive">
-                </a>
-              </div>
-              <div class="blog-info">
-                <h2>This is Lorem ipsum heading.</h2>
-                <div class="blog-comment">
-                  <p>Posted In: <span>Legal Advice</span></p>
-                  <p>
-                    <span><a href="#"><i class="fa fa-comments"></i></a> 15</span>
-                    <span><a href="#"><i class="fa fa-eye"></i></a> 11</span></p>
-                </div>
-                <p>We cannot expect people to have respect for laws and orders until we teach respect to those we have entrusted to enforce those laws all the time. we always want to help people cordially.</p>
-                <a href="" class="read-more">Read more →</a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section> -->
-    <!---->
-    <section id="contact" class="section-padding wow fadeInUp delay-05s">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center white">
-            <h2 class="service-title pad-bt15">Keep in touch with us</h2>
-            <p class="sub-title pad-bt15"> </p>
-            <hr class="bottom-line white-bg">
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="loction-info white">
-              <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Atrium Setiabudi Level 6, Kav.62 Jalan HR. Rasuna Said <br>Daerah Khusus Ibukota Jakarta 12920</p>
-
-              <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@erevnaraya.co.id</p>
-              <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+62 853-4380-5673</p>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal5">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">BHEEM</h2>
+                                    <p class="item-intro text-muted">Video Confrence.</p><img class="img-fluid d-block mx-auto" src="assets/img/6-thumbnail.jpg">
+                                    <p>-</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: On Going</li>                                    
+                                        <li>Category: Video Confrence</li>
+                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="contact-form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="insert.php" method="post" role="form" class="contactForm">
-                <div class="col-md-6 padding-right-zero">
-                  <div class="form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
+        </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal6">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">RAYAPOS</h2>
+                                    <p class="item-intro text-muted">News Portal.</p><img class="img-fluid d-block mx-auto" src="assets/img/5-thumbnail.jpg">
+                                    <p>The news portal www.rayapos.com is published by PT. Sinar Kokoh Media, which is part of the Sinar Kokoh Persada (SKP) group.</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: Mei 2014</li>
+                                        <li>Category: Media Online</li>
+                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                    <div class="validation"></div>
-                  </div>
-                  <button type="submit" class="btn btn-primary btn-submit">SEND NOW</button>
-                </div>
-              </form>
-
             </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <!---->
-    <!---->
-    <footer id="footer">
-      <div class="container">
-        <div class="row text-center">
-          <p>&copy; 2020 PT. Erevna Raya Teknologi. All Rights Reserved.</p>
-          <div class="credits">
-            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Baker
-            -->
-          </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal8">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Bheem Elearning</h2>
+                                    <p class="item-intro text-muted">E-Learning.</p><img class="img-fluid d-block mx-auto" src="assets/img/7-thumbnail.jpg">
+                                    <p>-</p>
+                                    <ul class="list-unstyled">
+                                        <li>Date: On Going</li>
+                                        <li>Category: E-Learning</li>
+                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </footer>
-    <!---->
-  </div>
-  <script src="/assets/js/jquery.min.js"></script>
-  <script src="/assets/js/jquery.easing.min.js"></script>
-  <script src="/assets/js/bootstrap.min.js"></script>
-  <script src="/assets/js/wow.js"></script>
-  <script src="/assets/js/jquery.bxslider.min.js"></script>
-  <script src="/assets/js/custom.js"></script>
-  <script src="/assets/contactform/contactform.js"></script>
-
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/agency.js"></script>
 </body>
+
 </html>
