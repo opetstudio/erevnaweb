@@ -15,7 +15,7 @@
 
 	if(!$do_insert)
 	{
-		echo "Failed to insert new data bro. Check again your query.";
+		echo "Failed to insert new data. Check again your query.";
 		echo "<br>";
 	}
 
