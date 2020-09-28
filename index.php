@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
 </head>
@@ -54,12 +55,12 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4" data-bs-hover-animate="pulse"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-cogs fa-stack-1x fa-inverse"></i></span>
+                <div class="col-md-4" data-bs-hover-animate="pulse"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-handshake-o fa-stack-1x fa-inverse"></i></span>
                     <h4 class="section-heading" style="font-size: 21px;padding-bottom: 10px;padding-top: 10px;">IT Profesional Service</h4>
                     <p class="text-muted">We provide solutions to your business needs to improve performance, effectiveness, efficiency and durability. Together, we create a true competitive advantage based on the latest technology to build a tailored solution specifically
                         for your needs.</p>
                 </div>
-                <div class="col-md-4" data-bs-hover-animate="pulse"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-laptop fa-stack-1x fa-inverse"></i></span>
+                <div class="col-md-4" data-bs-hover-animate="pulse"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-mobile-phone fa-stack-1x fa-inverse"></i></span>
                     <h4 class="section-heading" style="font-size: 21px;padding-bottom: 10px;padding-top: 10px;">Application Development</h4>
                     <p class="text-muted">We provide information system with newest technology, with Mobile – Web Platform.&nbsp;It is suitable tools to integrate applications into your business needs.</p>
                 </div>
@@ -126,13 +127,11 @@
             </div>
         </div>
     </section>
-    <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" id="about">
-        <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+    <section id="about">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center" style="height: 111px;">
                     <h2 class="text-uppercase" style="font-size: 30px;">About</h2>
-                    <h3 class="text-muted section-subheading" style="padding-top: 10px;">We have two lines in business – Software Development Services and Software Product Services.<br>We provide information system with newest technology, with Mobile – Web Platform.<br>Our product services cover the deployment and support
-                        leading software products targeting sectors such as fintech, Media, Education, and<br>Search Engine.<br></h3>
                 </div>
             </div>
             <div class="row">
@@ -141,77 +140,26 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Nofrets%20Poai.jpg">
-                        <h4>Nofreta Poai</h4>
-                        <p class="text-muted">CEO</p>
-                        <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Renaldo%20Pontoh.jpg">
-                        <h4>Renaldo Pontoh</h4>
-                        <p class="text-muted">Project Manager</p>
-                        <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Julian%20Purukan%20copy.jpg">
-                        <h4>Julian Purukan</h4>
-                        <p class="text-muted">Quality Assurance</p>
-                        <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Michael%20Tinangon.jpg">
-                        <h4>Michael Tinangon</h4>
-                        <p class="text-muted">Backend Developer</p>
-                        <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Andrew%20Rendiyanto.jpg">
-                        <h4>Andrew Amba</h4>
-                        <p class="text-muted">Frontend Developer</p>
-                        <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/Devid%20Yosua%20Runtuwene.jpg">
-                        <h4>Devid Runtuwene</h4>
-                        <p class="text-muted">Fullstack, Designer</p>
-                        <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
+                <div class="col-lg-12" style="background-color: #222121;">
+                    <form id="contactForm" name="contactForm" novalidate="novalidate">
+                        <div class="form-row">
+                            <div class="col col-md-6">
+                                <div class="form-group"><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                                <h2 class="text-uppercase" style="font-size: 23px;color: rgb(220,76,76);margin-top: 52px;margin-bottom: 32px;">Erevna raya teknologi</h2>
+                                <p class="text-left" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200" style="font-size: 18px;color: rgb(255,255,255);">We have two lines in business – Software Development Services and Software Product Services. We provide information system with newest technology with Mobile – Web Platform. Our product services cover the deployment and
+                                    support leading software products targeting sectors such as fintech, Media, Education, and Search Engine.<br></p>
+                                <p class="text-justify" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200" style="font-size: 50px;color: rgba(255,255,255,0.06);margin-top: 159px;"><strong>ABOUT US</strong></p>
+                            </div>
+                            <div class="col-md-6" style="height: 520px;">
+                                <div class="form-group"><small class="form-text text-danger help-block lead"></small></div><img class="img-fluid" src="assets/img/setiabudi-1.jpg" style="margin-top: 37px;"></div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <section id="contact" style="background-image:url('assets/img/map-image.png');">
         <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <div class="row">
