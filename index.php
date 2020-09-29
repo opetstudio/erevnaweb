@@ -239,9 +239,9 @@
                                 <div class="modal-body">
                                     <h2 class="text-uppercase">RAYAPAY</h2>
                                     <p class="item-intro text-muted">Payment Application.</p><img class="img-fluid d-block mx-auto" src="assets/img/1-thumbnail%20copy.jpg">
-                                    <p>Rayapay is a payment application that makes it easy for users to make any transaction digitally, be it bill payments, payments to merchants by scanning a barcode so that users can quickly make transactions through the Termapay digital wallet.</p>
+                                    <p>Rayapay is a payment application that makes it easy for users to make any transaction digitally, be it bill payments, payments to merchants by scanning a barcode so that users can quickly make transactions through the Rayapay digital wallet.</p>
                                     <ul class="list-unstyled">
-                                        <li>Date: June 2020</li>
+                                        <li>Date: April 2020</li>
                                         <li>Category: Fintech</li>
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
                             </div>
@@ -284,7 +284,7 @@
                                 <div class="modal-body">
                                     <h2 class="text-uppercase">PRISMA EDU</h2>
                                     <p class="item-intro text-muted">System Academic.</p><img class="img-fluid d-block mx-auto" src="assets/img/3-thumbnail.jpg">
-                                    <p>-</p>
+                                    <p>PRISMA EDU is an application made to facilitate / support an academic administration activity on campus, all of which are arranged boldly (online). Some examples of activities that are administrative in nature are the admission of new students (PMB), preparation of curriculum and class schedules, filling out the Study Plan Card (KRS), filling in grades (for lecturers), filling in data for lecturers, employees, and students, and others.</p>
                                     <ul class="list-unstyled">
                                         <li>Date: September 2019</li>
                                         <li>Category: System Academic</li>
@@ -327,8 +327,8 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <h2 class="text-uppercase">BHEEM</h2>
-                                    <p class="item-intro text-muted">Video Confrence.</p><img class="img-fluid d-block mx-auto" src="assets/img/6-thumbnail.jpg">
-                                    <p>-</p>
+                                    <p class="item-intro text-muted">Video Conference.</p><img class="img-fluid d-block mx-auto" src="assets/img/6-thumbnail.jpg">
+                                    <p>Bheem is an application specially designed as a web-based video conferencing tool with a local desktop client and a mobile application that allows users to conduct online meetings, with or without video. Bheem users can also choose to record sessions, collaborate on projects, and share or annotate each other's screens, all with one easy-to-use platform.</p>
                                     <ul class="list-unstyled">
                                         <li>Date: On Going</li>                                    
                                         <li>Category: Video Confrence</li>
@@ -370,9 +370,9 @@
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
-                                    <h2 class="text-uppercase">Bheem Elearning</h2>
+                                    <h2 class="text-uppercase">Bheem E-learning</h2>
                                     <p class="item-intro text-muted">E-Learning.</p><img class="img-fluid d-block mx-auto" src="assets/img/7-thumbnail.jpg">
-                                    <p>-</p>
+                                    <p>Bheem-Lms is an educational portal that offers undergraduate / postgraduate study products with the blended learning method and other course programs. Bheem-lms collaborates with leading campuses accredited by BAN-PT in Indonesia.</p>
                                     <ul class="list-unstyled">
                                         <li>Date: On Going</li>
                                         <li>Category: E-Learning</li>
