@@ -24,6 +24,7 @@
 		echo "Your message has been sent.";
 		
 		header("Location: https://www.erevnaraya.co.id/ "); /* Redirect browser */
+		exit;
 	}
 
 ?>
