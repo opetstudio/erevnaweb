@@ -22,12 +22,8 @@
 	else
 	{
 		echo "Your message has been sent.";
-		echo "<br>";
-		echo "<a href='index.php'></a>";
+		
 		header("Location: index.php"); /* Redirect browser */
-
-/* Make sure that code below does not get executed when we redirect. */
-exit;
 	}
 
 ?>
