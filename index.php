@@ -1,6 +1,8 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -18,6 +20,8 @@
     <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -378,6 +382,27 @@
             </div>
         </div>
     </div>
+    <?php 
+        
+        if($_SESSION['message']){
+           if($_SESSION['message'] === 'sukses'){
+            echo "
+                <script>
+                swal('Success','Your email has been sent', 'success');
+                </script>
+            ";
+            session_destroy();
+           }else{
+            echo "
+                <script>
+                swal('Something error','Your email hasn\'t been sent', 'error');
+                </script>
+                ";
+            session_destroy();
+           }         
+        }
+       
+    ?>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
