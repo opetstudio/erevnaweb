@@ -15,8 +15,7 @@
 	session_start();
 	if(!$do_insert)
 	{
-		$_SESSION['message']="gagal";
-		echo "Failed to insert new data. Check again your query.";
+		$_SESSION['message']="gagal";	
 		echo "<br>";
 		echo "<script>";
 		echo "window.location='/'";
@@ -24,8 +23,7 @@
 	}
 
 	else
-	{
-		echo "Your message has been sent.";
+	{	
 		$_SESSION['message']="sukses";
 		echo "<script>";
 		echo "window.location='/'";
