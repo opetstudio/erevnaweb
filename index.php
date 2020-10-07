@@ -195,25 +195,19 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group"><small class="form-text text-danger help-block lead"></small></div>
-                                <form action="insert.php" method="post" role="form" class="contactForm">
-                                    <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name" style="padding: 10px;font-size: 14px;"></div>
-                                    <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" style="padding: 10px;font-size: 14px;"><small class="form-text text-danger">Please enter a correct email address.</small></div>
-                                    <div class="form-group"><input class="form-control" type="text" name="subject" placeholder="Subject" style="padding: 10px;font-size: 14px;"></div>
-                                    <div
-                                        class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14" style="padding: 10px;height: 162px;font-size: 14px;"></textarea></div>
-                            
-                        </div>
-                        <div class="col">
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-lg-12 text-center">
-                            <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" data-bs-hover-animate="pulse" id="sendMessageButton" type="submit" style="padding: 8px;margin-top: 20px;font-size: 12px;">Send Message</button></div>
+                                <form action="insert.php" method="post" >
+                                    <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name" style="padding: 10px;font-size: 14px;" required></div>
+                                    <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" style="padding: 10px;font-size: 14px;"  required><small class="form-text text-danger">Please enter a correct email address.</small></div>
+                                    <div class="form-group"><input class="form-control" type="text" name="subject" placeholder="Subject" style="padding: 10px;font-size: 14px;" required></div>
+                                    <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14" style="padding: 10px;height: 162px;font-size: 14px;" required></textarea></div>
+                                </div>
+                                <div class="col-lg-12 text-center">
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-hover-animate="pulse" id="sendMessageButton" type="submit" style="padding: 8px;margin-top: 20px;font-size: 12px;">Send Message</button></div>
                             </form>
+                        </div>
+                     </div>
                 </div>
-            
             </div>
-        </div>
-        </div>
     </section>
     <div class="footer-basic" style="background-color: rgb(52,58,64);">
         <footer>
