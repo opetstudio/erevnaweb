@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/--mp--Animated-Service-Box-1.css">
+    <link rel="stylesheet" href="assets/css/--mp--Animated-Service-Box.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
@@ -45,13 +47,13 @@
             <div class="container">
                 <div class="intro-text">
                     <p data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200" style="font-size: 51px;">Erevna Raya Teknologi</p>
-                    <p data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200" style="font-size: 16px;">We centralized ads from thousands of websites that classified to many vertical in just one search.<br>We help our clients and partners by generating more traffic to their websites.<br></p>
+                    <p data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200" style="font-size: 16px;">We build product services that cover leading software product deployment and support targeting sectors such as<br>Fintech, Media, Education and Search Engines.<br></p>
                     <div class="intro-heading text-uppercase"></div><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" role="button" data-bs-hover-animate="pulse" href="#services" style="background-color: rgb(27,8,101);padding: 7px;font-size: 12px;">More about us</a></div>
             </div>
         </div>
     </header>
     <section id="services">
-        <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" style="margin-bottom: 0px;">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="text-uppercase section-heading" style="color: rgb(33,37,41);font-size: 30px;">Services</h2>
@@ -59,18 +61,61 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4" data-bs-hover-animate="pulse"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-handshake-o fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading" style="font-size: 21px;padding-bottom: 10px;padding-top: 10px;">IT Profesional Service</h4>
-                    <p class="text-muted">We provide solutions to your business needs to improve performance, effectiveness, efficiency and durability. Together, we create a true competitive advantage based on the latest technology to build a tailored solution specifically
-                        for your needs.</p>
+                <div class="col-sm-12 col-md-4" data-bs-hover-animate="pulse">
+                    <div class="serviceBox">
+                        <div class="service-icon"><span><i class="fa fa-laptop" style="font-size: 64px;"></i></span></div>
+                        <h1 class="titleBlurb"><strong>Web Development</strong></h1>
+                        <p style="margin-top: 16px;color: rgb(134,142,150);">Develop a good quality website that is user friendly and easy to use.</p>
+                    </div>
                 </div>
-                <div class="col-md-4" data-bs-hover-animate="pulse"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-mobile-phone fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading" style="font-size: 21px;padding-bottom: 10px;padding-top: 10px;">Application Development</h4>
-                    <p class="text-muted">We provide information system with newest technology, with Mobile – Web Platform.&nbsp;It is suitable tools to integrate applications into your business needs.</p>
+                <div class="col-sm-12 col-md-4" data-bs-hover-animate="pulse">
+                    <div class="serviceBox pink">
+                        <div class="service-icon"><span><i class="fa fa-mobile-phone" style="font-size: 64px;"></i></span></div>
+                        <h1 class="titleBlurb"><strong>Mobile Application</strong></h1>
+                        <p style="margin-top: 16px;color: rgb(134,142,150);">We design, build application and make your business stand out with mobile apps.</p>
+                    </div>
                 </div>
-                <div class="col-md-4" data-bs-hover-animate="pulse"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-laptop fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading" style="font-size: 21px;padding-bottom: 10px;padding-top: 10px;"><strong>IT Custom Development</strong></h4>
-                    <p class="text-muted">We understand that your company needs a cutting edge, efficient and easy to use solution that has a hight adoption rate, so our consultants can help you achieve your business goals with a custom developed solution.<br></p>
+                <div class="col-sm-12 col-md-4" data-bs-hover-animate="pulse">
+                    <div class="serviceBox blue">
+                        <div class="service-icon"><span><i class="fa fa-gears" style="font-size: 64px;"></i></span></div>
+                        <h1 class="titleBlurb"><strong>System Development</strong></h1>
+                        <p style="margin-top: 16px;color: rgb(134,142,150);">We provide information system with newest technology to integrate for your business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: rgba(0,0,0,0.61);background-image: url(&quot;assets/img/3779226.jpg&quot;);background-size: cover;background-position: center;margin-top: 142px;">
+            <div style="background-color: rgba(0,0,0,0.86);">
+                <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading" style="color: rgb(255,255,255);font-size: 30px;margin-top: 38px;margin-bottom: 71px;">Technology We Use</h2>
+                            <h3 class="text-muted section-subheading"></h3>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-sm-12 col-md-4" data-bs-hover-animate="pulse">
+                            <div class="serviceBox">
+                                <div class="service-icon"><span><i class="fa fa-laptop" style="font-size: 64px;"></i></span></div>
+                                <h1 class="titleBlurb" style="color: rgb(255,255,255);"><strong>Web Development</strong></h1>
+                                <p style="margin-top: 16px;color: rgb(255,255,255);">HTML, CSS, JavaScript, PHP, MySQL, <br>Phyton, Etc .</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4" data-bs-hover-animate="pulse">
+                            <div class="serviceBox pink">
+                                <div class="service-icon"><span><i class="fa fa-mobile-phone" style="font-size: 64px;"></i></span></div>
+                                <h1 class="titleBlurb" style="color: rgb(255,255,255);"><strong>Mobile Application</strong></h1>
+                                <p style="margin-top: 16px;color: rgb(255,255,255);">Java Script with the React Native framework makes the application lighter.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4" data-bs-hover-animate="pulse">
+                            <div class="serviceBox blue">
+                                <div class="service-icon"><span><i class="fa fa-gears" style="font-size: 64px;"></i></span></div>
+                                <h1 class="titleBlurb" style="color: rgb(255,255,255);"><strong>System Development</strong></h1>
+                                <p style="margin-top: 16px;color: rgb(255,255,255);">With the latest technology and reliable integration for your business.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -132,34 +177,39 @@
         </div>
     </section>
     <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center" style="height: 111px;">
-                    <h2 class="text-uppercase" style="font-size: 30px;">About</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-group timeline"></ul>
-                </div>
-            </div>
-        </div>
-        <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-            <div class="row">
-                <div class="col-lg-12" style="background-color: #222121;">
-                    <form id="contactForm" name="contactForm" novalidate="novalidate">
-                        <div class="form-row">
-                            <div class="col col-md-6">
-                                <div class="form-group"><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
-                                <h2 class="text-uppercase" style="font-size: 23px;color: rgb(220,76,76);margin-top: 52px;margin-bottom: 32px;">Erevna raya teknologi</h2>
-                                <p class="text-left" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200" style="font-size: 18px;color: rgb(255,255,255);">We have two lines in business – Software Development Services and Software Product Services. We provide information system with newest technology with Mobile – Web Platform. Our product services cover the deployment and
-                                    support leading software products targeting sectors such as fintech, Media, Education, and Search Engine.<br></p>
-                                <p class="text-justify" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200" style="font-size: 50px;color: rgba(255,255,255,0.06);margin-top: 159px;"><strong>ABOUT US</strong></p>
-                            </div>
-                            <div class="col-md-6" style="height: 520px;">
-                                <div class="form-group"><small class="form-text text-danger help-block lead"></small></div><img class="img-fluid" src="assets/img/setiabudi-1.jpg" style="margin-top: 37px;"></div>
+        <div style="background-color: rgba(17,9,9,0.79);background-image: url(&quot;assets/img/3784896.jpg&quot;);background-size: cover;background-position: top;">
+            <div style="background-color: rgba(0,0,0,0.88);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center" style="height: 111px;">
+                            <h2 class="text-uppercase" style="font-size: 30px;color: rgb(255,255,255);padding-top: 51px;">About</h2>
                         </div>
-                    </form>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="list-group timeline"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="row">
+                        <div class="col-lg-12" style="background-color: rgba(255,255,255,0);">
+                            <form id="contactForm" name="contactForm" novalidate="novalidate">
+                                <div class="form-row">
+                                    <div class="col col-md-6" style="padding-right: 25px;">
+                                        <div class="form-group"><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                                        <h2 class="text-uppercase" style="font-size: 23px;color: rgb(220,76,76);margin-top: 52px;margin-bottom: 32px;">Erevna raya teknologi</h2>
+                                        <p class="text-justify" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200" style="font-size: 18px;color: rgb(255,255,255);">Erevna Raya Teknologi is an information technology solution provider company headquartered in Jakarta and we have two lines in business – Software Development Services and Software Product Services. We provide information
+                                            system with newest technology with Mobile – Web Platform. <br><br>Our product services cover the deployment and support leading software products targeting sectors such as Fintech, Media, Education, and Search
+                                            Engine.<br></p>
+                                        <p class="text-justify" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200" style="font-size: 50px;color: rgba(255,255,255,0.08);margin-top: 69px;"><strong>ABOUT US</strong></p>
+                                    </div>
+                                    <div class="col-md-6" style="height: 520px;">
+                                        <div class="form-group"><small class="form-text text-danger help-block lead"></small></div><img class="img-fluid" src="assets/img/setiabudi-1.jpg" style="margin-top: 37px;padding-left: 25px;"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
