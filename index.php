@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="assets/css/Brands.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -84,42 +85,15 @@
                 </div>
             </div>
         </div>
-        <div style="background-color: rgba(0,0,0,0.61);background-image: url(&quot;assets/img/3779226.jpg&quot;);background-size: cover;background-position: center;margin-top: 142px;">
-            <div style="background-color: rgba(0,0,0,0.86);">
-                <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2 class="section-heading" style="color: rgb(255,255,255);font-size: 30px;margin-top: 38px;margin-bottom: 71px;">Technology We Use</h2>
-                            <h3 class="text-muted section-subheading"></h3>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-sm-12 col-md-4" data-bs-hover-animate="pulse">
-                            <div class="serviceBox">
-                                <div class="service-icon"><span><i class="fa fa-laptop" style="font-size: 64px;"></i></span></div>
-                                <h1 class="titleBlurb" style="color: rgb(255,255,255);"><strong>Web Development</strong></h1>
-                                <p style="margin-top: 16px;color: rgb(255,255,255);">HTML, CSS, JavaScript, PHP, MySQL, <br>Phyton, Etc .</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4" data-bs-hover-animate="pulse">
-                            <div class="serviceBox pink">
-                                <div class="service-icon"><span><i class="fa fa-mobile-phone" style="font-size: 64px;"></i></span></div>
-                                <h1 class="titleBlurb" style="color: rgb(255,255,255);"><strong>Mobile Application</strong></h1>
-                                <p style="margin-top: 16px;color: rgb(255,255,255);">Java Script with the React Native framework makes the application lighter.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4" data-bs-hover-animate="pulse">
-                            <div class="serviceBox blue">
-                                <div class="service-icon"><span><i class="fa fa-gears" style="font-size: 64px;"></i></span></div>
-                                <h1 class="titleBlurb" style="color: rgb(255,255,255);"><strong>System Development</strong></h1>
-                                <p style="margin-top: 16px;color: rgb(255,255,255);">With the latest technology and reliable integration for your business.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
+    <div class="brands" style="background-image: url(&quot;assets/img/3779226.jpg&quot;);background-size: cover;background-position: center;">
+        <div style="background-color: rgba(225,223,223,0.89);">
+            <a href="#">
+                <h2 class="section-heading" style="color: #000000;font-size: 30px;margin-bottom: 37px;"><strong>Technology We Use</strong></h2> <img src="assets/img/58481791cef1014c0b5e4994.png" width="100"><img src="assets/img/MySQL-Logo.wine.png" width="100"><img src="assets/img/664-6644509_icon-react-js-logo-hd-png-download.png" width="100"><img src="assets/img/58481021cef1014c0b5e494b.png" width="100"><img src="assets/img/demystify-graphql-knoldus-blogs-graphql-png-600_600.png" width="100">
+                <img
+                    src="assets/img/Python_logo_wordmark.png" width="100"><img src="assets/img/logo-javascript-png-transparent-logo-javascriptpng-images-pluspng-javascript-png-587_330.png" width="100"><img src="assets/img/1_tOitxCwTNcS3ESstLylmtg.png" width="100"><img src="assets/img/1280px-Node.js_logo.svg.png" width="100"></a>
+        </div>
+    </div>
     <section id="portfolio" class="bg-light">
         <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <div class="row">
@@ -217,13 +191,13 @@
     <section id="contact" style="background-image:url('assets/img/map-image.png');">
         <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <div class="row">
-                <div class="col-lg-12 text-center" style="background-color: rgba(48,19,108,0.27);">
+                <div class="col-lg-12 text-center" style="background-color: rgba(0,0,0,0.45);">
                     <h2 class="text-uppercase section-heading" style="font-size: 31px;">Contact Us</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12" style="background-color: #30136c45;">
+                <div class="col-lg-12" style="background-color: rgba(0,0,0,0.45);">
                         <div class="form-row">
                             <div class="col col-md-6">
                                 <div class="form-group"><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
