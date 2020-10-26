@@ -87,8 +87,8 @@
         </div>
     </section>
     <div class="brands" style="background-image: url(&quot;assets/img/3779226.jpg&quot;);background-size: cover;background-position: center;">
-        <div style="background-color: rgba(225,223,223,0.89);">
-            <a href="#">
+    <div style="background-color: rgb(244,244,244);">
+            <a>
                 <h2 class="section-heading" style="color: #000000;font-size: 30px;margin-bottom: 37px;"><strong>Technology We Use</strong></h2> <img src="assets/img/58481791cef1014c0b5e4994.png" width="100"><img src="assets/img/MySQL-Logo.wine.png" width="100"><img src="assets/img/664-6644509_icon-react-js-logo-hd-png-download.png" width="100"><img src="assets/img/58481021cef1014c0b5e494b.png" width="100"><img src="assets/img/demystify-graphql-knoldus-blogs-graphql-png-600_600.png" width="100">
                 <img
                     src="assets/img/Python_logo_wordmark.png" width="100"><img src="assets/img/logo-javascript-png-transparent-logo-javascriptpng-images-pluspng-javascript-png-587_330.png" width="100"><img src="assets/img/1_tOitxCwTNcS3ESstLylmtg.png" width="100"><img src="assets/img/1280px-Node.js_logo.svg.png" width="100"></a>
@@ -170,7 +170,7 @@
                         <div class="col-lg-12" style="background-color: rgba(255,255,255,0);">
                             <form id="contactForm" name="contactForm" novalidate="novalidate">
                                 <div class="form-row">
-                                    <div class="col col-md-6" style="padding-right: 25px;">
+                                    <div class="col col-md-6" style="padding-right: 15px;padding-left: 15px;">
                                         <div class="form-group"><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
                                         <h2 class="text-uppercase" style="font-size: 23px;color: rgb(220,76,76);margin-top: 52px;margin-bottom: 32px;">Erevna raya teknologi</h2>
                                         <p class="text-justify" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200" style="font-size: 18px;color: rgb(255,255,255);">Erevna Raya Teknologi is an information technology solution provider company headquartered in Jakarta and we have two lines in business – Software Development Services and Software Product Services. We provide information
@@ -179,7 +179,7 @@
                                         <p class="text-justify" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200" style="font-size: 50px;color: rgba(255,255,255,0.08);margin-top: 69px;"><strong>ABOUT US</strong></p>
                                     </div>
                                     <div class="col-md-6" style="height: 520px;">
-                                        <div class="form-group"><small class="form-text text-danger help-block lead"></small></div><img class="img-fluid" src="assets/img/setiabudi-1.jpg" style="margin-top: 37px;padding-left: 25px;"></div>
+                                        <div class="form-group"><small class="form-text text-danger help-block lead"></small></div><img class="img-fluid" src="assets/img/setiabudi-1.jpg" style="margin-top: 37px;padding-left: 15px;padding-right: 15px;"></div>
                                 </div>
                             </form>
                         </div>
