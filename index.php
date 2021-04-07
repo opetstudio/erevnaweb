@@ -93,6 +93,11 @@
                 <img
                     src="assets/img/Python_logo_wordmark.png" width="100"><img src="assets/img/logo-javascript-png-transparent-logo-javascriptpng-images-pluspng-javascript-png-587_330.png" width="100"><img src="assets/img/1_tOitxCwTNcS3ESstLylmtg.png" width="100"><img src="assets/img/1280px-Node.js_logo.svg.png" width="100"></a>
         </div>
+        <div style="background-color: rgb(244,244,244);">
+            <a>
+                <h2 class="section-heading" style="color: #000000;font-size: 30px;margin-bottom: 37px;"><strong>Our Partners</strong></h2> 
+                <img src="assets/img/Logo_Univ_Black.jpeg" width="200"><img src="assets/img/Computer_Science_Univ.jpeg" width="90"></a>
+        </div>
     </div>
     <section id="portfolio" class="bg-light">
         <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
